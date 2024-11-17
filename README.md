@@ -1,6 +1,6 @@
 ###############################
 
-## BWA-GATK pipeline
+## GATK-1.0 pipeline
 
 This script is developed by the Lee Kong Chian School of Medicine (LKCMedicine) under Assoc. Prof Joanne Ngeow's lab, operating in the server in the Centre of Bioinformatics. It utilizes the **BWA-GATK** pipeline which converts paired short reads fastq to variant annotated files used for germline variant studies.
 
