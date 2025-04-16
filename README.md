@@ -14,7 +14,7 @@ This pipeline uses the following libraries:
 - snakemake 7.18.2
 - vep 107
 
-This pipeline was benchmarked on Ashkenazim Son HG002 (https://www.nist.gov/programs-projects/genome-bottle) as the truth set, yielding 99.5% within confidence regions versus 91.9% outside confidence regions for SNVs; and 98.4% versus 72.0% for INDELs.
+This pipeline was benchmarked on Ashkenazim Son HG002 (https://www.nist.gov/programs-projects/genome-bottle) as the truth set, yielding **99.5%** within confidence regions versus **91.9%** outside confidence regions for SNVs; and **98.4%** versus **72.0%** for INDELs.
 
 ### Below are the instructions to using this script:
 
