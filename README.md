@@ -1,8 +1,8 @@
 ###############################
 
-## GATK-1.0 pipeline
+## GATK-1.0 Pipeline
 
-This script is developed by the Lee Kong Chian School of Medicine (LKCMedicine) under Assoc. Prof Joanne Ngeow's lab, operating in the server in the Centre of Bioinformatics. It utilizes the **BWA-GATK** pipeline which converts paired short reads fastq to variant annotated files used for germline variant studies.
+This script, developed in Assoc. Prof Joanne Ngeow’s lab, uses the **BWA-GATK** pipeline to convert paired-end FASTQ reads into variant-annotated files for germline studies.
 
 This pipeline uses the following libraries:
 - bcftools 1.16
@@ -14,7 +14,7 @@ This pipeline uses the following libraries:
 - snakemake 7.18.2
 - vep 107
 
-This pipeline was benchmarked on Ashkenazim Son HG002 (https://www.nist.gov/programs-projects/genome-bottle) as the truth set, yielding 99.5% within confidence regions versus 91.9% outside confidence regions for single nucleotide polymorphisms; and 98.4% versus 72.0% for insertion-deletion mutations.
+This pipeline was benchmarked on Ashkenazim Son HG002 (https://www.nist.gov/programs-projects/genome-bottle) as the truth set, yielding 99.5% within confidence regions versus 91.9% outside confidence regions for SNVs; and 98.4% versus 72.0% for INDELs.
 
 ### Below are the instructions to using this script:
 
