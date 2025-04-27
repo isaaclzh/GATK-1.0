@@ -1,8 +1,8 @@
 ###############################
 
-## GATK-1.0 Pipeline
+## WGS Germline Pipeline v1
 
-This script, developed in Assoc. Prof Joanne Ngeow’s lab, uses the **BWA-GATK** pipeline to convert paired-end FASTQ reads into variant-annotated files for germline studies.
+This script uses the **BWA-GATK** pipeline to convert paired-end FASTQ reads into variant-annotated files for germline studies.
 
 This pipeline uses the following libraries:
 - bcftools 1.16
